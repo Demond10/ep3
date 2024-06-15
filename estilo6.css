@@ -1,0 +1,128 @@
+body{
+    background: linear-gradient(to right, lightblue 45%,blue 150%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    position: sticky;
+    top: 0;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    font-size: 90px;
+    color: tomato;
+    height: 100px;
+    background-color: aqua;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+    justify-content: space-between;
+    list-style: none;
+    width: 80%;
+    padding: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.boton2{
+    color: white;
+}
+li{
+    justify-content: space-between;
+    padding: 15px 20px;
+    font-weight: 1000;
+    font-style: normal;
+    cursor: pointer;
+    list-style: none;
+    border-radius: 55px;
+    background-color: red;}
+li:hover{
+    background-color: black;
+    color: white;
+    border-radius: 55px}
+
+h3{
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: 100px;}
+#contenido{
+    height: 1120px;
+}
+h2{
+    font-size: 30px;
+}
+#horario{
+    margin-top: 50px;
+    margin-left: 300px;
+}
+#informacion{
+    margin-top: 250px;
+    margin-left: 300px;
+}
+p{
+    text-align: center;
+    margin-left: -580px;
+    font-size: 20px;
+    font-family: Lucida Sans;
+}
+table{
+    border-collapse: collapse;
+    margin-right: 10px;
+    margin-left: 300px;
+    margin-top: 60px;
+}
+td,th{
+    border: 2px solid red;
+    padding: 20px;
+}
+table td{
+    background-color: skyblue;
+}
+.btn{ 
+    color: white;
+    background-color: gray;
+    padding: 5px;
+    margin:5px;
+    margin-left: 150px;
+ }
+.caja1{
+    border: 2px solid red;
+    background-color: skyblue;
+    width: 450px;
+    height: 580px;
+    margin-left: 1050px;
+    margin-top: -800px;
+    padding: 20px;
+}
+input{
+    padding: 20px;
+}
+input:valid{
+    background-color:gray;
+}
+input:invalid{
+    background-color: lightcyan;
+}
+#mensaje{
+    padding: 40px;
+}
+#mapa{
+    text-align: center;
+    margin-top: 210px;
+}
+img{
+    margin-left: 400px;
+}
+#pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 750px;
+    padding-right: 800px;
+    width: 13%;}

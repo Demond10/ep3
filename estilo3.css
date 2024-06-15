@@ -1,0 +1,92 @@
+body{
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    position: sticky;
+    top: 0;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    font-size: 90px;
+    color: tomato;
+    height: 100px;
+    background-color: aqua;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+    justify-content: space-between;
+    list-style: none;
+    width: 80%;
+    padding: 20px;
+    padding-left: 150px;
+    padding-right: 150px; 
+}
+.boton2{
+    color: white;
+}
+li{
+    justify-content: space-between;
+    padding: 15px 20px;
+    font-weight: 1000;
+    font-style: normal;
+    cursor: pointer;
+    list-style: none;
+    border-radius: 55px;
+    background-color: red;}
+li:hover{
+    background-color: black;
+    color: white;
+    border-radius: 55px}
+img{
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 0;   
+}
+#contenido img:hover{
+    transform: scale(1.15);
+    opacity: 0.7;
+}
+.foto1{
+    margin: 250px 100px 100px 250px;
+    filter: brightness(70%)
+}
+.foto2{
+    margin: -310px 100px 100px 680px; 
+    filter: contrast(50%);
+}
+.foto3{
+    margin: -308px 100px 100px 1080px;
+    filter: grayscale(50%);
+}
+.foto4{
+    margin: 100px 100px 100px 250px;
+    filter: sepia(40%);
+}
+.foto5{
+    margin: -305px 100px 100px 680px;
+    filter: hue-rotate(30deg);  
+}
+.foto6{
+    margin: -308px 100px 100px 1080px;
+    filter: saturate(50%);  
+}
+h3{
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: 100px;}
+#pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 750px;
+    padding-right: 900px;
+    width: 13%;}

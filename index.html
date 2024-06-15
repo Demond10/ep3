@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copa America 2024</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="shortcut icon" href="imagenes/icono.jpg" type="image/x-icon">
+</head>
+<body onclick="PlayAudio()">
+    <main>
+        <section>
+            <div id="contenedor">
+                <h1>Todo Sobre la Copa América 2024</h1>
+                <br>
+                <article>
+                    <p>La Copa América 2024 será la 48.ª edición de este torneo, la principal competencia futbolística entre las selecciones nacionales de América del Sur 
+                    y la más antigua del mundo, será coorganizada por la Confederación Sudamericana de Fútbol y la Confederación de Norteamérica, Centroamérica y el Caribe de Fútbol.</p>
+                </article>
+            </div>
+        </section>
+        <section>
+            <div id="menu">
+                <nav>
+                    <li class="boton1">Inicio</li>
+                    <li class="boton5"><a href="historia.html" target="_blank">Historia</a></li>
+                    <li class="boton2"><a href="informacion.html" target="_blank">Información</a></li>
+                    <li class="boton3"><a href="galeria.html" target="_blank">Galeria</a></li>
+                    <li class="boton4"><a href="videos.html" target="_blank">Videos</a></li>
+                    <li class="boton6"><a href="contactos.html" target="_blank">Contactos</a></li>
+                </nav>
+            </div>
+        </section>
+        <section>
+            <footer>
+                <div id="pie">
+                        <li class="facebook"><a href="https://www.facebook.com/CopaAmerica/?locale=es_LA" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li class="twitter"><a href="https://x.com/CopaAmerica?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                        <li class="insta"><a href="https://www.instagram.com/copaamerica/?hl=es-la" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li class="tik"><a href="https://www.tiktok.com/@copaamerica?lang=es" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+                </div>
+            </footer>
+        </section>
+        <audio id="musica" autoplay controls loop>
+            <source src="musica/ale ale.mp3" type="audio/mpeg">
+        </audio>
+        <script>
+            function PlayAudio() {
+                document.getElementById("musica").play();
+            }
+        </script>
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    position: sticky;
+    top: 0;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    font-size: 90px;
+    color: tomato;
+    height: 100px;
+    background-color: aqua;
+    z-index: 2;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+    justify-content: space-between;
+    list-style: none;
+    width: 80%;
+    padding: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    z-index: 2; 
+}
+.boton2{
+    color: white;
+}
+li{
+    justify-content: space-between;
+    padding: 15px 20px;
+    font-weight: 1000;
+    font-style: normal;
+    cursor: pointer;
+    list-style: none;
+    border-radius: 55px;
+    z-index: 2;
+    background-color: red;}
+li:hover{
+    background-color: black;
+    color: white;
+    border-radius: 55px;
+    z-index: 2;}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(8, 8, 202);
+    font-family: Verdana;
+    margin-top: 200px;}
+p{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: 52px;
+    font-size: 20px;
+    font-family: Lucida Sans;
+    color: black;
+    position: relative;
+    z-index: 2;
+}
+#parrafo2{
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 70px;
+
+}
+iframe{
+    box-shadow: 0 20px 20px 0;
+}
+.youtube{
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-left: 150px;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+.vimeo{
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+h3{
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: 100px;
+    position: relative;
+    z-index: 2;}
+#pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 750px;
+    padding-right: 900px;
+    width: 13%;
+    z-index: 2;}
